@@ -4,42 +4,70 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+  <a class= "navbar-brand p-3 mb-2 bg-info text-white" href="index.html">Jacquelyn Duley</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <span class="navbar-text">
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+   </span>
+</div>
+</nav>
 
-  <div id="main-container" class="container">
+
+  <div class = "container">
     <section class="main-section">
+    <div class="row text-info">
       <h1>About Me</h1>
+    </div>
+    <div class="row-xs-no-gutters row-sm-no-gutters row">
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+    
+    <img src="assets/images/placeholder.jpg" class="float-left img-thumbnail" alt="Jacquelyn Duley">
+    
 
+    <div class = "col">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
+   
       <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+     </div>
 
+    <div class = "row">
+    <div class = "col">
       <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    </div>
+    </div>
 
     </section>
 
   </div>
+  </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
+
+   <div class="text-center card-footer text-white bg-info">
+     Copyright &copy;
+  </div>
+
   </footer>
 </body>
 
